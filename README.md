@@ -31,10 +31,5 @@ Geographic data will be visualized.
 
 Google Map is a free web mapping and site-based service, and the Google service provider provides a free web API for using the Google map web interface and geospatial data visualization.
 The system uses free API services from service providers to collect and use timely geospatial data and web mapping services.
-Technologies used*
-HTML
-CSS and Bootstrap library
-javaScript and jQuery library
-Weather data in json format
-AJAX get() method
+Technologies used:HTML, CSS and Bootstrap library, javaScript and jQuery library, Weather data in json format, AJAX get() method...
 
