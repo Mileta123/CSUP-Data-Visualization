@@ -11,7 +11,7 @@ function meteo(grad){
 
 		success: function(data){
 			
-			 $("#tempMax").text("Temperature: "  + data.main.temp_max+"°");
+			 $("#tempMax").text("Max Temperature: "  + data.main.temp_max+"°");
 			 $("#pressure").text("Pressure: "    + data.main.pressure+" Pa");
 			 $("#windspeed").text("Wind speed: " + data.wind.speed+" Km/h");
 			 $("#humidity").text("Humidity: "    + data.main.humidity+" %");
