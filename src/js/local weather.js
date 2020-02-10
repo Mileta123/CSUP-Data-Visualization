@@ -18,6 +18,9 @@ $(document).ready(function() {
     function presentWeather() {
         $("#myLocation").append(updateWeather.name);
         $("#myLocation").append(", " + updateWeather.sys.country);
+        $("#pressure").append(updateWeather.main.pressure+" Pa");
+		$("#humidity").append(updateWeather.main.humidity+" %");
+		$("#windspeed").append(updateWeather.wind.speed+" Km/h");
         $("#myTemp").append((updateWeather.main.temp).toFixed(1) + "°C");
         $("#descript").text(updateWeather.weather[0].description);
     }
