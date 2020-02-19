@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+		<link rel="stylesheet" href="../css/local weather.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+			integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css?family=Kaushan+Script"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<script
+			async
+			defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiLQfDL94FpsLxRZe5-ZaK_HgVc8I_Wb0&callback=initMap"
+		></script>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
+			<div class="container">
+				<a class="navbar-brand js-scroll-trigger" href="../web page.html"
+					>-Weather Forecast-</a
+				>
+
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav text-uppercase ml-auto">
+						<li class="nav-item">
+							<a
+								class="nav-link js-scroll-trigger"
+								href="../html/choose a city.html"
+								>Choose a city</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link js-scroll-trigger"
+								href="../html/enter a city.html"
+								>Enter a city</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link js-scroll-trigger"
+								href="../html/find a city on the map.html"
+								>Find a city on the map</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link js-scroll-trigger"
+								href="../html/click on the map.html"
+								>Click on the map</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link js-scroll-trigger"
+								href="../html/local weather.html"
+								>Local weather</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<br />
+		<br />
+
+		<div class="container">
+			<div class="jumbotron text-center">
+				<h1>UDG Local Weather</h1>
+
+				<div id="icon"></div>
+
+				<div id="descript"></div>
+
+				<p id="myLocation">Location: UDG</p>
+
+				<p id="myTemp">Temp:</p>
+				<p id="pressure">Pressure:</p>
+				<p id="humidity">Humidity:</p>
+				<p id="avgwindspeed">Average Wind Speed (1min):</p>
+
+				<div class="btn-group">
+					<button id="convertBtnC" type="button" class="btn btn-info">
+						°C
+					</button>
+					<button id="convertBtnF" type="button" class="btn btn-info">
+						°F
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<br />
+			<br />
+			<br />
+			<br />
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+		<script src="../js/local weather.js"></script>
+	</body>
+</html>
